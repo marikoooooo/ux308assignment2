@@ -11,6 +11,8 @@ function theme_enqueue_styles() {
         array('parent-style')
     );
     wp_enqueue_script('custom_javascript', get_stylesheet_directory_uri() . '/customElements.js');
+    wp_enqueue_script_module('custom_javascript1', "https://marikoooooo.github.io/ux308assignment1/fab.js");
+    wp_enqueue_script_module('custom_javascript2', "https://marikoooooo.github.io/ux308assignment1/chat.js");
 }
 //
 // Your code goes below
